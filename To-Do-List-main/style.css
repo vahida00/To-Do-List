@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+.container{
+    border:5px solid grey;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding:15px;
+}
+.header{
+    display:grid;
+    justify-content:center;
+    margin:15px;
+    padding:15px;
+    background:green;
+    border-radius: 5px;
+}
+.addItem{
+    border-radius: 2px;
+    transform:scale(1);
+}
+.strike{
+    margin-right:2%;
+}
