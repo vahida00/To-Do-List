@@ -19,7 +19,7 @@ function addItem(e){
       var aText=document.createTextNode(newItem);
       a.appendChild(aText);
       var deleteBtn=document.createElement("button");
-      deleteBtn.className="btn btn-danger btn-sm float-right";
+      deleteBtn.className="btn btn-danger btn-sm float-right delete";
       deleteBtn.appendChild(document.createTextNode('X'));
       a.appendChild(deleteBtn); 
       itemList.appendChild(a);
