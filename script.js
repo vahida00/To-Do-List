@@ -45,6 +45,7 @@ function strikeItem(e){
     a.style.textDecorationLine="line-through";
   }
 }
+<<<<<<< HEAD
 
 function filterItems(e){
 	var text=e.target.value.toLowerCase();
@@ -62,3 +63,5 @@ function filterItems(e){
 	 	}
 	})
 } 
+=======
+>>>>>>> 263902ec683550447904aee152557f864ecbaba7
