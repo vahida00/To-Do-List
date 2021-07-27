@@ -8,19 +8,31 @@
     <title>ToDoList</title>
 </head>
 <body>
-    <div class="container">
+    <header id="main-header" class="bg-success text-white p-4 mb-3">
+        <div class="container">
+         <div class="row">
+             <div class="col-md-6">
+                   <h1 id="header-title">To Do List</h1>
+               </div>
+               <div class="col-md-6 align-self-center">
+                   <input type="text" class="form-control" id="filter" placeholder="Search Items...">
+               </div>
+         </div>
+        </div>
+    </header>
+    <div class="container card card-body">
         <div class="header">
-            <h1>ToDoList</h1>
-            <form id="addForm" class="form-inline mb-3">
-                <input type="text" class="form-control" id="item" placeholder="addItem">
+            <h1>Add Items</h1>
+            <form id="addForm" class="form-inline mb-3 align-items-center">
+                <input type="text" class="form-control mr-2" id="item" placeholder="addItem">
                 <input type="submit" class="btn btn-dark" value="Add">
             </form>
         </div>
         <div class="list-group" id="items"> 
-            <a href="#" id="listItem" class="list-group-item list-group-item-action"><input type="checkbox" class="strike"  id="close"> Going to Gym <button type="button" class="btn btn-danger btn-sm float-right delete" id="del-btn">X</button></a>
-            <a href="#" id="listItem" class="list-group-item list-group-item-action"><input type="checkbox"  class="strike" id="close"> Buying Breed <button type="button" class="btn btn-danger btn-sm float-right delete" id="del-btn">X</button></a>
-            <a href="#" id="listItem" class="list-group-item list-group-item-action"><input type="checkbox"  class="strike" id="close"> WorkOut <button type="button" class="btn btn-danger btn-sm float-right delete" id="del-btn">X</button></a>
-            <a href="#" id="listItem" class="list-group-item list-group-item-action"><input type="checkbox"  class="strike" id="close"> Complete the Work <button type="button" class="btn btn-danger btn-sm float-right  delete" id="del-btn">X</button></a>
+            <a href="#" id="listItem" class="list-group-item list-group-item-action"> Going to Gym <input type="checkbox" class="strike float-right ml-2 checkbox-lg"  id="close"> <button type="button" class="btn btn-danger btn-sm float-right delete" id="del-btn">X</button></a>
+            <a href="#" id="listItem" class="list-group-item list-group-item-action"> Buying Bread <input type="checkbox"  class="strike float-right ml-2 checkbox-lg" id="close">  <button type="button" class="btn btn-danger btn-sm float-right delete" id="del-btn">X</button></a>
+            <a href="#" id="listItem" class="list-group-item list-group-item-action"> WorkOut <input type="checkbox"  class="strike float-right ml-2 checkbox-lg" id="close">  <button type="button" class="btn btn-danger btn-sm float-right delete" id="del-btn">X</button></a>
+            <a href="#" id="listItem" class="list-group-item list-group-item-action"> Complete the Work <input type="checkbox"  class="strike float-right ml-2 checkbox-lg" id="close"> <button type="button" class="btn btn-danger btn-sm float-right  delete" id="del-btn">X</button></a>
         </div>
     </div>
 </body>
